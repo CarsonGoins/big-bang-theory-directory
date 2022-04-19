@@ -79,7 +79,7 @@ function App() {
       <CardList characters={filteredCharacters}>
         <input type="text" onChange={(event)=>{handleOnChange(event)}} value={query}/>
         <Button handleButtonClick={handleButtonClick} text="Filter" color="black" backgroundColor="lightskyblue">
-
+  
         </Button>
       {/* map = forEach */}
 
